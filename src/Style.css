@@ -1,0 +1,216 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 97vh;
+  margin: 0;
+}
+
+.signin-container header {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.signin-container header .logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.signin-container header h1 {
+  display: inline-block;
+  font-size: 1.5em;
+  color: #333;
+  vertical-align: middle;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  height: 360px;
+  text-align: center;
+}
+
+.signup-form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.form-container form {
+  margin: 10px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+.signup-form-container form {
+  margin: 10px;
+}
+
+.signup-form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.continuebtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e0052;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.continuebtn:hover {
+  background-color: rgb(96, 10, 134);
+}
+
+.privacy-notice {
+  padding: 10px;
+  font-size: 0.8em;
+  color: #555;
+  margin-top: 10px;
+}
+
+.new-musicart {
+  padding: 20px;
+}
+
+.new-to-musicart {
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.create-account-button {
+  width: 320px;
+  padding: 10px;
+  background-color: #fff;
+  color: #2e0052;
+  border: 1px solid #2e0052;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.create-account-button:hover {
+  background-color: #f3e5f5;
+}
+
+.already-account {
+  margin-top: 10px 0 10px 0;
+  font-size: 0.9em;
+}
+
+.already-account a {
+  color: #2e0052;
+  text-decoration: none;
+}
+
+.already-account a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------------------------Product section--------------------------------------- */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  text-align: center;
+  background: #0066FF2B;
+}
+
+.product-card img {
+  mix-blend-mode: multiply;
+}
+
+
+
+/* ---------------------------------------Footer section--------------------------------------- */
+.page-footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2e0052;
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* ---------------------------------------Media Queries for Mobile View --------------------------------------- */
+@media only screen and (max-width: 768px) {
+  .nav-mobile {
+    background-color: #2e0052;
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  header .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .logo-container h1 {
+    font-size: 1.2em;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .form-container h2 {
+    font-size: 1.5em;
+  }
+
+  .form-container form input {
+    padding: 8px;
+  }
+
+  .form-container form button {
+    padding: 8px;
+  }
+}
